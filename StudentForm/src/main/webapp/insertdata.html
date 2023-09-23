@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration</title>
+</head>
+<body>
+	<center>
+		<h3>Register Here</h3>
+		<form action="register" method="post">
+			<table>
+				<tr><td>Roll no: </td><td><input type="text" name="rno" placeholder="Rollno"></td></tr>
+				<tr><td>Name: </td><td><input type="text" name="sname" placeholder="Fullname"></td></tr>
+				<tr><td>Father's Name: </td><td><input type="text" name="fname" placeholder="Father's Name"></td></tr>
+				<tr><td>Mobile: </td><td><input type="text" name="mobile" placeholder="Mobile"></td></tr>
+				<tr><td>E-Mail: </td><td><input type="email" name="email" placeholder="E-Mail"></td></tr>
+				<tr><td>DOB: </td><td><input type="date" name="dob"></td></tr>
+				<tr><td>Gender:</td><td>
+						<input type="radio" id="Male" name="gender" value="Male">Male
+						<input type="radio" id="Female" name="gender" value="Female">Female
+						<input type="radio" id="Transgender" name="gender" value="Transgender">Transgender
+						</td></tr>
+				<tr><td>Religion:</td><td>
+				Hindu<input type="checkbox" name="region" value="hindu">
+				Christian<input type="checkbox" name="region" value="christian">
+				Muslim<input type="checkbox" name="region" value="muslim">
+				Others<input type="checkbox" name="region" value="others">
+				
+				</td></tr>
+				<tr><td>Education:</td><td>
+						<select name="edu" id="edu">
+							<option value="sslc">SSLC</option>
+							<option value="hsc">HSC</option>
+							<option value="diploma">DIPLOMA</option>
+							<option value="ug">Bachelor's</option>
+							<option value="pg">Master's</option>
+							<option value="doct">Doctorate</option></select></td></tr>
+				<tr><td>Address:</td><td><textarea name="address" cols="40" rows="5" placeholder="Address"></textarea></td><td></tr>
+				<tr><td>City: </td><td><input type="text" name="city" placeholder="City"></td></tr>									
+				<tr><td>Pincode: </td><td><input type="text" name="pincode" placeholder="Pincode"></td></tr>
+				<tr><td></td><td><input type="submit" value="Submit"></td></tr>									
+			</table>
+		</form>	
+	</center>
+</body>
+</html>
